@@ -74,12 +74,12 @@ ul li:nth-child(1) a:hover .fa{
      
 }
 
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 500px){
      
      ul li a{
      position: relative;
-     width: 100px;
-     height: 100px;
+     width: 80px;
+     height: 80px;
      display: block;
      text-align: center;
      margin: 0 10px;
@@ -99,10 +99,21 @@ ul li:nth-child(1) a:hover .fa{
      display: block;
      background: linear-gradient(0deg, #fff, #ddd);
      border-radius: 50%;
-     line-height: calc(60px - -30px);
-     font-size: 40px;
+     line-height: calc(60px - -12px);
+     font-size: 45px;
      color: #262626;
      transition: .5s;
 }
+ 
+     ul{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     margin: 0;
+     padding: 0;
+     display: flex;
+}
+     
 
 }
