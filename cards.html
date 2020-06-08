@@ -1,36 +1,108 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    
+
      <meta charset="UTF-8">
-     
-     <title>cards</title>
-     
+
+     <title>coming soon</title>
+
      <link rel="stylesheet" href="cards.css">
-     
-     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-     
+
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Chelsea+Market&family=Fredoka+One&family=Josefin+Sans:wght@400;600&family=Nunito+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+     <header>
 
-<ul>
-    
-     <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <a href="#" class="logo">Brand Name</a>
+
+          <nav>
+               <ul>
+                    <li><a href="#">Home</a></li>
+               </ul>
+
+          </nav>
+
+     </header>
+
+     <section>
+
+          <img src="curve.png" class="wave" alt="curve">
+
+          <div class="contentBx">
+
+               <h2>Coming soon</h2>
+
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, quas. Molestias iure blanditiis facere dignissimos quis quos numquam, accusamus nulla harum, deleniti debitis veniam mollitia fuga dolores sit cumque natus.</p>
+
+               <div class="countdown">
+
+                    <div class="time">
+                         <div id="day">2</div><span>Days</span>
+                    </div>
+                    <div class="time">
+                         <div id="hour">1</div><span>Hours</span>
+                    </div>
+                    <div class="time">
+                         <div id="minute">50</div><span>minutes</span>
+                    </div>
+                    <div class="time">
+                         <div id="second">14</div><span>seconds</span>
+                    </div>
+
+               </div>
+
+               <a href="#" onclick="toggle();">Notify Me!</a>
+
+          </div>
+
+          <div class="imgBx">
+
+               <img src="man.png" alt="man picture">
+
+          </div>
+
+          <ul class="sci">
+
+               <li><a href="#"><img src="facebook.png" alt=""></a></li>
+               <li><a href="#"><img src="instagram.png" alt=""></a></li>
+               <li><a href="#"><img src="twitter.png" alt=""></a></li>
+
+          </ul>
+
+     </section>
      
-</ul>
+     <div class="newsletter">
+     
+<h2>Stay Tuned</h2>
+   
+    <p>Get notified at launch</p>
+    
+    <div class="inputBox">
+       <form>
+            <input type="email" required placeholder="Enter Email Address">
+            <input type="submit" value="Submit">
+       </form>  
+    </div>
+    <img src="close.png" class="close" onclick="toggle();">
+     </div>
+     
+     <!------------------- script -------------------------->
 
-
-
-
-
-
+<script type="text/javascript">
+     
+     function toggle(){
+          var newsletter = document.querySelector('.newsletter');
+          newsletter.classList.toggle('active')
+     }
+     
+     
+     
+     </script>
 
 
 
