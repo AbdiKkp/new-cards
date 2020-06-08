@@ -132,7 +132,8 @@ section .contentBx a{
 section .imgBx img{
      max-width: 500px;
      width: 100%;
-     margin-top: 100px;
+     margin-top: 70px;
+     margin-right: 250px;
      z-index: 2;
      position: relative;
 }
@@ -248,6 +249,54 @@ box-shadow: 0 0 0 100vh rgba(49,39,71,0.95);
           padding: 120px 50px 100px;
           height: auto;
      }
+     
+     section .contentBx h2{
+          font-size: 40px;
+     }
+     section .contentBx p{
+          font-size: 16px;
+     }
+     
+     section .contentBx .countdown .time{
+          font-size: 30px;
+          min-width: 70px;
+          margin-right: 5px;
+     }
+     section .contentBx .countdown .time span{
+          font-size: 14px;
+     } 
+     
+     section .contentBx a{
+          position: relative;
+          margin-top: 10px;
+          display: inline-block;
+          background: #fff;
+          color: #ff0083;
+          font-size: 16px;
+          letter-spacing: 2px;
+          padding: 10px 25px;
+          text-decoration: none;
+          border-radius: 40px;
+     }
 }
 
+@media only screen and (max-width: 400px){
+    section{
+           
+          flex-direction: column;
+          padding-top: 250px;
+          height: auto;
+     }
+     
+     section .contentBx{
+          max-width: 100%;
+     }
+     
+        section .imgBx img{
+          margin-top: 0;
+              margin-right: 100px;
+     }
 }
+     
+}
+
