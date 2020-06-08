@@ -250,21 +250,4 @@ box-shadow: 0 0 0 100vh rgba(49,39,71,0.95);
      }
 }
 
-@media only screen and (max-width: 400px){
-     
-     section .imgBx img{
-          margin-top: 0;
-     }
-     
-      section{
-           
-          flex-direction: column;
-          padding-top: 250px;
-          height: auto;
-     }
-     
-     section .contentBx{
-          max-width: 200%;
-     }
-     
 }
