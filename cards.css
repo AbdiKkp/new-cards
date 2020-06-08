@@ -220,25 +220,32 @@ box-shadow: 0 0 0 100vh rgba(49,39,71,0.95);
      height: 40px;
      cursor: pointer;
 }
-@media only screen and (max-width 991px){
-     section{
+
+@media only screen and (max-width: 991px){
+     
+      section{
+           
           flex-direction: column;
-          padding-top: 150px;
+          padding-top: 250px;
           height: auto;
      }
      
      section .contentBx{
           max-width: 100%;
      }
-    
-     section .imgBx img{
+     
+        section .imgBx img{
           margin-top: 0;
      }
-     
 }
 
-@media only screen and (max-width 767px){
-     header{
+@media only screen and (max-width: 767px){
+      header{
           padding: 20px 50px;
+     }
+     section{
+          flex-direction: column;
+          padding: 120px 50px 100px;
+          height: auto;
      }
 }
